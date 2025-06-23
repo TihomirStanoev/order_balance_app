@@ -3,8 +3,8 @@ import pandas as pd
 import numpy as np
 from io import BytesIO
 
-st.set_page_config(page_title="Order Balance System", layout="wide")
-st.title("Order Balance System - Export Data от SAP файл")
+st.set_page_config(page_title="Order Balance", layout="wide")
+st.title("Order Balance - Export Data от SAP файл")
 
 uploaded_file = st.file_uploader("Качи SAP Excel файл (export.XLSX)", type=["xlsx"])
 
